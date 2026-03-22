@@ -1,29 +1,11 @@
-# Savvy Coders Project Boilerplate Starter Kit
+# Phase AI
 
-## Overview
+## Definition Statement
+I want to build Phase.ai  a web-based readiness platform that helps beauty founders and small-batch formulators figure out if they are actually ready for the next level, and what specifically needs to be true before they get there.
 
-This template repository contains several opinionated, 'starter' files and settings to help Savvy Coder students focus more time and energy on learning how to code and/or craft 'business logic' for projects and less time on configurations.
+Most beauty founders under $250K in annual revenue are making critical business decisions — how to price products, whether to scale production, when to stop self-manufacturing and hire a contract manufacturer  without any structured financial intelligence. They don't know their true cost of goods because they never account for their own labor. They don't know which products are actually profitable. They have no framework for understanding when it's time to make the leap to a co-manufacturer. And most have no idea where they stand on FDA compliance under MoCRA.
 
-In addition to a '.gitignore' and some VS Code specific extensions and settings, it includes the 'recommended' settings for:
+Phase.ai solves this by combining a True Cost Calculator (with founder labor baked in), SKU Profitability Comparison, Co-Manufacturer Readiness Evaluator, MoCRA Compliance Check, and a proprietary Structural Readiness Score into a single beauty-specific diagnostic platform. It is not an accounting tool, not an inventory tracker, and not an ERP. It is the readiness layer — the tool a beauty founder uses before making the decisions that will either build the foundation for real growth or quietly break the business.
 
-1. [ESLint](eslint.org)
-2. [Stylelint](stylelint.io)
-3. [Prettier](prettier.io)
-
-## Get Started
-
-**First and foremost,** make sure that your local machine is set up with all of the 'dev environment tooling' as per the instructions in the curriculum.
-
-Well, after establishing your directory structure on your local machine, (e.g. '~/Code/SavvyCoders'), clone the Savvy Starter Repo - essentially, there should be a button that says **Use this template.**
-
-> [Read more about using templates on GitHub here...](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
-
-Once this repo has been created on your GitHub, you can click on the button to 'clone' it as usual.
-
-Once it's `clone`d to your local machine, `cd` into the directory and **be sure to do:** `npm i` to get all of the dependencies installed. If you see any _errors_ (warnings are OK) on Windows, you may have to do `npm install`.
-
-Now, enter `code .` to open this project in VS Code, and look for a prompt to 'install some extensions' once inside VS Code (in the bottom `right` of your screen). You should install these.
-
-In your repo, feel free to update this README and make any other initial changes to files, etc. Then go ahead and do your usual `git` steps -- add, commit, and push.
-
-**Note:** This is a template repository, no need to 'fork it.
+## Full Project Details
+For more details, see the [Phase AI](https://docs.google.com/document/d/1C9wsujixnr9qirBz_BojFGB2BOVmTjoHYX7V3Rn2KrQ/edit?usp=sharing)

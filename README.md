@@ -9,3 +9,4 @@ Phase.ai solves this by combining a True Cost Calculator (with founder labor bak
 
 ## Full Project Details
 For more details, see the [Phase AI](https://docs.google.com/document/d/1C9wsujixnr9qirBz_BojFGB2BOVmTjoHYX7V3Rn2KrQ/edit?usp=sharing)
+For the wire Frames, see the [Phase AI.](https://drive.google.com/file/d/13oeiIy-CZ8bOEb7qQHbgjsw7nH0K7ZG0/view?usp=sharing)

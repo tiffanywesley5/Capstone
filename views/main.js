@@ -7,6 +7,12 @@ export default (state) => html`
     <a href="/about" data-navigo class="cta-button">Start Free Readiness Assessment</a>
   </section>
 
+  <section id="weather-widget">
+    <h2>Your customers' climate today</h2>
+    <p class="weather-hint">Beauty trends shift with the weather. Here is what your target market is experiencing right now in St. Louis.</p>
+    <div id="weather">Loading weather...</div>
+  </section>
+
   <section id="features">
     <h2>What Phase.ai does for you</h2>
     <div class="card-grid">

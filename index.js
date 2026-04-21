@@ -14,6 +14,7 @@ function render(state = store.home) {
   `;
   router.updatePageLinks();
   attachMenuToggle();
+  loadWeather();
 }
 
 function attachMenuToggle() {
@@ -25,6 +26,30 @@ function attachMenuToggle() {
     navLinks.classList.toggle("hidden--mobile");
   });
 }
+
+function loadWeather() {
+  const weatherDiv = document.querySelector("#weather");
+  if (!weatherDiv) return;
+
+  const city = "St. Louis";
+  const key = process.env.OPENWEATHER_KEY;
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${key}`;
+
+  fetch(url)
+    .then((response) => response.json())
+    .then((data) => {
+      weatherDiv.innerHTML = `
+        <p class="weather-temp">${Math.round(data.main.temp)}&deg;F</p>
+        <p class="weather-desc">${data.weather[0].description}</p>
+        <p class="weather-city">${data.name}</p>
+      `;
+    })
+    .catch((error) => {
+      weatherDiv.innerHTML = "Weather unavailable right now.";
+      console.error("Weather fetch failed:", error);
+    });
+}
+
 router.on({
   "/": () => render(),
   "/:view": (match) => {

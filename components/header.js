@@ -1,7 +1,8 @@
 import html from "html-literal";
 
-export default () => html`
-<header>
-    <h1>Insert a Header Here</h1>
-</header>
-`
+export default (state) => html`
+  <header>
+    <div class="logo">Phase<span class="gold">.ai</span></div>
+    <h1>${state.header}</h1>
+  </header>
+`;

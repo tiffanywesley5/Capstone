@@ -5,7 +5,7 @@ export { default as nav } from "./nav";
 export const home = {
   header: "Are you ready for your next phase?",
   view: "Home",
-  content: "Know your real numbers. Understand your readiness. Grow with confidence."
+  content: "Know your real numbers..."
 };
 
 export const viewNotFound = {
